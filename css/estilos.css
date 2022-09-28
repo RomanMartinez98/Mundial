@@ -9,8 +9,16 @@
     max-height: 100px;
 }
 
+.row{
+    margin-right: 0px;
+}
+
 h5{
     color: black;
+}
+
+img{
+    max-height: 818px;
 }
 
 div p{
