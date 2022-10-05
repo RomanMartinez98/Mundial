@@ -19,5 +19,5 @@
 }
 
 section div img{
-    max-height: 147px;
+    max-height: map-get($size, small);
 }

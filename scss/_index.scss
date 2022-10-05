@@ -2,9 +2,14 @@ h5{
     color: black;
 }
 
+$size:(
+    big: 818px,
+    medium: 500px,
+    small:147px
+);
 
 img{
-    max-height: 818px;
+    max-height: map-get($size, big);
 }
 
 div p{
