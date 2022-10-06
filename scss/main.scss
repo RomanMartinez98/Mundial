@@ -3,7 +3,7 @@
 @import "qatar2022";
 
 .bg-color{
-    background-color: rgba(59, 122, 84, 0.753);
+    background-color: #8a1538;
 }
 .fondoEstadio{
     background-image: url(../imagenes/backEstadio.jpg);
@@ -11,11 +11,34 @@
 
 .logo{
     max-height: 100px;
+    transition: all 1s;
+    &:hover{
+        transform: scale(120%);
+    }
+}
+
+.footer{
+    color: white;
 }
 
 .row{
     margin-right: 0px;
 }
 
+.titulo{
+    font-weight: bolder;
+    color: #8a1538;
+    justify-content: center;
+    font-style: italic;
+    display: block;
+}
 
-
+.p-nav{
+    font-style: italic;
+    font-weight: bold;
+    color: #eeeee4;
+    transition: all 0,5s;
+    &:hover{
+        color: black;
+    }
+}

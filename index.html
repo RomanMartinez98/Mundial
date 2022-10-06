@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mundial, catar, 2022, copa del mundo, mundial de futbol, fifa world cup">
+    <meta name="description" content="Toda la informacion sobre la Copa Mundial de la FIFA">
     <title>Fifa World Cup</title>
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+                <!--NAV-->
     <nav class="navbar navbar-expand-lg bg-color">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img class="logo" src="imagenes/worldcup.png" alt="logo"></a>
@@ -21,52 +23,47 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="paginas/campeonesMundiales.html">Campeones Mundiales</a>
+                <a class="nav-link active" aria-current="page" href="paginas/campeonesMundiales.html"><p class="p-nav">Campeones Mundiales</p></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="paginas/qatar2022.html">Qatar 2022</a>
+                <a class="nav-link active" aria-current="page" href="paginas/qatar2022.html"><p class="p-nav">Qatar 2022</p></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="paginas/records.html">Records</a>
+                <a class="nav-link active" aria-current="page" href="paginas/records.html"><p class="p-nav">Records</p></a>
               </li>
               </ul>
           </div>
         </div>
       </nav> 
-
+          <!--CARRUSEL-->
 <main class="container-fluid">
-    <div class="row fondoEstadio">
-        <div class="col-2"></div>
-        
+    <div class="row fondoEstadio">  <!--FONDO-->
+        <div class="col-2"></div>        
         <div id="carouselExampleCaptions" class="carousel slide col-8" data-bs-ride="false">
             <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active slide" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="slide"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="slide"></button>
             </div>
             <div class="carousel-inner">
             <div class="carousel-item active">
             <img src="imagenes/2018.jpg" class="d-block w-100" alt="francia 2018">
                 <div class="carousel-caption d-none d-md-block">
               <h5>Francia 2018</h5>
-              <p>Francia obtuvo su segundo titulo del mundo en el mundial de Rusia 2018 venciendo en la final a Croacia</p>
                 </div>
             </div>
             <div class="carousel-item">
             <img src="imagenes/2002.jpg" class="d-block w-100" alt="brasil 2002">
                 <div class="carousel-caption d-none d-md-block">
               <h5>Brasil 2002</h5>
-            <p>Brasil obtuvo su quinto titulo del mundo en el mundial de Corea-Japon 2002 venciendo en la final a Alemania</p>
                 </div>
             </div>
             <div class="carousel-item">
             <img src="imagenes/1986.jpg" class="d-block w-100" alt="argentina 1986">
                 <div class="carousel-caption d-none d-md-block">
               <h5>Argentina 1986</h5>
-              <p>Argentina obtuvo su segundo titulo del mundo en el mundial de Mexico 1986 venciendo en la final a Alemania</p>
-                </div>  
-                    
-          </div>
+              </div>                     
+        </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,19 +75,101 @@
         </button>
       </div>
       <div class="col-2"></div>
-    </div>    
+    </div>   
+    <!--IMAGEN PARA MOVILES-->
+    <img src="imagenes/qatar2022.jpg" alt="qatar2022" class="imagenIndex"> 
 </main>
+<section class="container-fluid prox-e">  <!--PROXIMOS ENCUENTROS-->
+  <div class="row d-flex justify-content-evenly">
+      <h2 class="row d-flex titulo mt-2">PROXIMOS ENCUENTROS</h2>
+    <div class="card mt-3" style="width: 25rem;"> <!--Primer tarjeta-->
+        <img src="https://img.freepik.com/vector-premium/qatar-vs-ecuador-futbol-2022-grupo-competicion-mundial-futbol-partido-campeonato-versus_7280-7278.jpg?w=2000" class="card-img-top" alt="CATARvsECUADOR">
+        <div class="card-body">
+          <h5 class="row d-flex card-text">CATAR VS ECUADOR</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">21/11/2022 10:00hs</li>
+          <li class="list-group-item">Grupo A</li>
+          <li class="list-group-item">Estadio Al Khor</li>
+        </ul>
+      </div>
 
+    
+     <!--Segunda tarjeta-->
+      <div class="card mt-3" style="width: 25rem;">
+        <img src="https://img.freepik.com/vector-premium/inglaterra-vs-iran-futbol-2022-grupo-b-competicion-mundial-futbol-partido-campeonato-versus_7280-7286.jpg?w=1380" class="card-img-top" alt="INGLATERRAvsIRAN">
+        <div class="card-body">
+          <h5 class="row d-flex card-text">INGLATERRA VS IRAN</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">21/11/2022 13:00hs</li>
+          <li class="list-group-item">Grupo B</li>
+          <li class="list-group-item">Estadio Internacional Jalifa</li>
+        </ul>
+      </div>
+  <!--Tercer tarjeta-->
+      <div class="card mt-3" style="width: 25rem;">
+        <img src="https://img.freepik.com/vector-premium/senegal-vs-holanda-futbol-2022-grupo-campeonato-mundial-futbol-partido-campeonato-versus_7280-7282.jpg?w=1380" class="card-img-top" alt="SENEGALvsPAISESBAJOS">
+        <div class="card-body">
+          <h5 class="row d-flex card-text">SENEGAL VS HOLANDA</h5>
+          
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">21/11/2022 13:00hs</li>
+          <li class="list-group-item">Grupo A</li>
+          <li class="list-group-item">Estadio Al Thumama</li>
+        </ul>
+    </div>    
+  </div>
+  <div class="row d-flex justify-content-evenly mt-5">
+     <!--Cuarta tarjeta-->
+      <div class="card mb-5" style="width: 25rem;">
+        <img src="https://img.freepik.com/vector-premium/partido-ee-uu-vs-gales-partido-campeonato-mundial-futbol-2022-contra-equipos-campo-futbol-introduccion-deporte-fondo-campeonato-competencia-final-cartel-plano-estilo-vector-ilustracion_7280-7618.jpg?w=1380" class="card-img-top" alt="USAvsGALES">
+        <div class="card-body">
+          <h5 class="row d-flex card-text">USA VS GALES</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">21/11/2022 16:00hs</li>
+          <li class="list-group-item">Grupo B</li>
+          <li class="list-group-item">Estadio Al Rayyan</li>
+        </ul>
+  </div>
+    
+     <!--Quinta tarjeta-->
+      <div class="card mb-5" style="width: 25rem;">
+        <img src="https://img.freepik.com/vector-premium/argentina-vs-arabia-saudita-futbol-2022-grupo-c-partido-campeonato-competencia-mundial-futbol_7280-7320.jpg?w=1380" class="card-img-top" alt="ARGENTINAvsARABIASAUDITA">
+        <div class="card-body">
+          <h5 class="row d-flex card-text">ARGENTINA VS ARABIA SAUD.</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">22/11/2022 11:00hs</li>
+          <li class="list-group-item">Grupo C</li>
+          <li class="list-group-item">Estadio Lusails</li>
+        </ul>
+      </div>
+
+   <!--Sexta tarjeta-->
+      <div class="card mb-5" style="width: 25rem;">
+        <img src="https://img.freepik.com/vector-premium/dinamarca-vs-tunez-futbol-2022-grupo-d-partido-campeonato-competencia-mundial-futbol-versus_7280-7351.jpg?w=1380" class="card-img-top" alt="DINAMARCAvsTUNEZ">
+        <div class="card-body">
+          <h5 class="row d-flex card-text">DINAMARCA VS TUNEZ</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">22/11/2022 10:00hs</li>
+          <li class="list-group-item">Grupo D</li>
+          <li class="list-group-item">Estadio Ciudad de la Educacion</li>
+        </ul>
+      </div>   
+  </div>
+
+</section>
+            <!--FOOTER-->
 <footer>
     <div class="d-flex p-2 justify-content-center bg-color">
-        <p>Todos los derechos reservados a FIFA</p>
+        <p class="footer">Todos los derechos reservados a FIFA</p>
     </div>
-
 </footer>
-
-
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
-
 </html>

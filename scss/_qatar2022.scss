@@ -6,15 +6,49 @@ th{
     width: 50%;
 }
 
+.table-encabezado{
+    background-image: url(../imagenes/backQatar.webp);
+}
+
+.table-contenido{
+    background-color: #eeeee4;
+}
+
+td{
+    color: #8a1538;
+    font-style: italic;
+    font-weight: bold;
+}
+
+th{
+    color: #eeeee4;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
 .grupo{
     width: 50%;
 
 }
 
+.llaves{
+    background-color: #eeeee4;
+}
 
 @media screen and (max-width:850px) {
     .grupo{
         width: 100%;
+    }
+    .fixture{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:440px) {
+    .table{
+        max-width: 400px;
     }
     
 }
