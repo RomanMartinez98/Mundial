@@ -1,0 +1,31 @@
+.backrecords{
+    background-color: #eeeee4;
+}
+
+.grupoRecords{
+    display: block;
+    justify-content: center;
+    width: 50%;
+    border-style: solid;
+    justify-content: center;
+}
+main li{
+    font-style: italic;
+    font-weight: bold;
+    list-style: square;
+}
+
+@media screen and (max-width:800px) {
+    .grupoRecords{
+        width: 100%;
+    }
+    main li{
+        font-size:small
+    }
+    .tituloRecords{
+        font-size: large;
+    }
+    h5{
+        font-size: medium;
+    }
+}

@@ -1,0 +1,50 @@
+.grupoImagen{
+    width: 60%;
+    background-image: url(../imagenes/backQatar.webp);
+}
+
+.grupoTexto{
+    width: 40%;
+    background-color: #eeeee4;
+    align-items: center;
+    p{
+        align-self: center;
+        font-size: x-large ;
+        justify-self: center;
+    }
+    
+
+}
+
+h3{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xx-large;
+    align-self: flex-start;
+    color: #8a1538;
+}
+
+.imgEstadio{
+    width: 60%;
+    min-width: 400px;
+    
+}
+@media screen and (max-width:1080px) {
+    .grupoImagen{
+        width: 100%;
+        border-style: solid;
+    }
+    .grupoTexto{
+        width: 100%;
+        border-style: solid;
+    }
+    .imgEstadio{
+        min-width: 600px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .imgEstadio{
+       min-width: 350px;
+    }
+}

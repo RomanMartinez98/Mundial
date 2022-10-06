@@ -1,11 +1,15 @@
+.container-fluid {
+  padding-right: 0px; }
+
 .imagenIndex {
   display: none;
   width: 100%; }
 
 h5 {
   color: #8a1538;
-  font-weight: 900;
-  font-size: xx-large; }
+  font-weight: bold;
+  font-size: x-large;
+  font-style: italic; }
 
 .prox-e {
   background-color: #eeeee4; }
@@ -91,9 +95,68 @@ th {
   .fixture {
     width: 100%; } }
 
-@media screen and (max-width: 440px) {
-  .table {
-    max-width: 400px; } }
+.grupoImagen {
+  width: 60%;
+  background-image: url(../imagenes/backQatar.webp); }
+
+.grupoTexto {
+  width: 40%;
+  background-color: #eeeee4;
+  align-items: center; }
+  .grupoTexto p {
+    align-self: center;
+    font-size: x-large;
+    justify-self: center; }
+
+h3 {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: xx-large;
+  align-self: flex-start;
+  color: #8a1538; }
+
+.imgEstadio {
+  width: 60%;
+  min-width: 400px; }
+
+@media screen and (max-width: 1080px) {
+  .grupoImagen {
+    width: 100%;
+    border-style: solid; }
+  .grupoTexto {
+    width: 100%;
+    border-style: solid; }
+  .imgEstadio {
+    min-width: 600px; } }
+
+@media screen and (max-width: 650px) {
+  .imgEstadio {
+    min-width: 350px; } }
+
+.backrecords {
+  background-color: #eeeee4; }
+
+.grupoRecords {
+  display: block;
+  justify-content: center;
+  width: 50%;
+  border-style: solid;
+  justify-content: center; }
+
+main li {
+  font-style: italic;
+  font-weight: bold;
+  list-style: square; }
+
+@media screen and (max-width: 800px) {
+  .grupoRecords {
+    width: 100%; }
+  main li {
+    font-size: small; }
+  .tituloRecords {
+    font-size: large; }
+  h5 {
+    font-size: medium; } }
 
 .bg-color {
   background-color: #8a1538; }
@@ -108,7 +171,7 @@ th {
     transform: scale(120%); }
 
 .footer {
-  color: white; }
+  color: #eeeee4; }
 
 .row {
   margin-right: 0px; }
@@ -117,8 +180,7 @@ th {
   font-weight: bolder;
   color: #8a1538;
   justify-content: center;
-  font-style: italic;
-  display: block; }
+  font-style: italic; }
 
 .p-nav {
   font-style: italic;

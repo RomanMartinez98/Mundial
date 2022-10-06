@@ -1,3 +1,6 @@
+.container-fluid{
+    padding-right: 0px;
+}
 .imagenIndex{
     display: none;
     width: 100%;
@@ -5,8 +8,9 @@
 
 h5{
     color: #8a1538;
-    font-weight: 900;
-    font-size: xx-large;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
 }
 
 $size:(

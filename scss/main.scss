@@ -1,6 +1,8 @@
 @import "index";
 @import "campeonesMundiales";
 @import "qatar2022";
+@import "estadio";
+@import "records";
 
 .bg-color{
     background-color: #8a1538;
@@ -18,7 +20,7 @@
 }
 
 .footer{
-    color: white;
+    color: #eeeee4;
 }
 
 .row{
@@ -30,7 +32,6 @@
     color: #8a1538;
     justify-content: center;
     font-style: italic;
-    display: block;
 }
 
 .p-nav{
