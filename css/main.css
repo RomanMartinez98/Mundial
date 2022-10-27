@@ -36,7 +36,15 @@ div p {
   .carousel {
     display: none; }
   .imagenIndex {
-    display: inline-block; } }
+    display: inline-block; }
+  .container-fluid {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 450px) {
+  .card {
+    scale: 70%; }
+  h2 {
+    scale: 80%; } }
 
 .card-filter {
   filter: grayscale(100);
@@ -95,6 +103,16 @@ th {
   .fixture {
     width: 100%; } }
 
+@media screen and (max-width: 450px) {
+  table {
+    scale: 70%; } }
+
+@media screen and (max-width: 310px) {
+  table {
+    scale: 50%; }
+  h1 {
+    scale: 70%; } }
+
 .grupoImagen {
   width: 60%;
   background-image: url(../imagenes/backQatar.webp); }
@@ -117,12 +135,20 @@ h3 {
 
 .imgEstadio {
   width: 60%;
-  min-width: 400px; }
+  min-width: 400px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5%; }
+
+.separador {
+  background-image: url(../imagenes/backQatar.webp);
+  height: 100px; }
 
 @media screen and (max-width: 1080px) {
   .grupoImagen {
     width: 100%;
-    border-style: solid; }
+    border-top-style: solid;
+    border-color: black; }
   .grupoTexto {
     width: 100%;
     border-style: solid; }
@@ -132,6 +158,12 @@ h3 {
 @media screen and (max-width: 650px) {
   .imgEstadio {
     min-width: 350px; } }
+
+@media screen and (max-width: 400px) {
+  .imgEstadio {
+    min-width: 250px; }
+  h3 {
+    scale: 70%; } }
 
 .backrecords {
   background-color: #eeeee4; }

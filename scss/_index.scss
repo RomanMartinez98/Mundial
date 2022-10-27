@@ -52,5 +52,17 @@ div p{
 .imagenIndex{
     display: inline-block;
 }
+.container-fluid{
+    padding-left: 0px;
+}
     
+}
+@media screen and (max-width:450px) {
+    .card{
+        scale: 70%;
+    }
+    h2{
+        scale: 80%;
+    }
+
 }

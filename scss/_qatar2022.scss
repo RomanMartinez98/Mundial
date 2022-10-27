@@ -41,6 +41,22 @@ th{
     }
     .fixture{
         width: 100%;
-    }
-    
+    }    
 }
+
+@media screen and (max-width:450px) {
+table{
+    scale: 70%;
+}
+}
+
+@media screen and (max-width:310px) {
+    table{
+        scale: 50%;
+    }
+   
+    h1{
+        scale: 70%
+    }
+
+    }

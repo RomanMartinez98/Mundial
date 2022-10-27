@@ -27,12 +27,21 @@ h3{
 .imgEstadio{
     width: 60%;
     min-width: 400px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
     
 }
+.separador{
+    background-image: url(../imagenes/backQatar.webp);
+    height: 100px;
+}
+
 @media screen and (max-width:1080px) {
     .grupoImagen{
         width: 100%;
-        border-style: solid;
+        border-top-style: solid;
+        border-color: black;
     }
     .grupoTexto{
         width: 100%;
@@ -47,4 +56,13 @@ h3{
     .imgEstadio{
        min-width: 350px;
     }
+}
+
+@media screen and (max-width:400px) {
+    .imgEstadio{
+       min-width: 250px;
+    }
+h3{
+    scale: 70%;
+}
 }
